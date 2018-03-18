@@ -11,3 +11,9 @@ describe 'buzz' do
     expect(fizzbuzz(5)).to eq 'buzz'
   end
 end
+
+describe "number" do
+  it "returns number when passed other number" do
+    expect(fizzbuzz(4)).to eq 4
+  end
+end
