@@ -18,6 +18,12 @@ describe 'buzz' do
   end
 end
 
+describe 'buzz' do
+  it 'returns "buzz" when passed a multiple of 5' do
+    expect(fizzbuzz(10)).to eq 'buzz'
+  end
+end
+
 describe "number" do
   it "returns number when passed other number" do
     expect(fizzbuzz(4)).to eq 4
