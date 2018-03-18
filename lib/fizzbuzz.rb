@@ -1,5 +1,5 @@
 def fizzbuzz(number)
-  if number == 15
+  if number % 5 == 0 && number % 3 == 0
     "fizzbuzz"
   elsif number % 3 == 0
     "fizz"
@@ -9,3 +9,5 @@ def fizzbuzz(number)
     number
   end
 end
+
+(1..100).each {|num| puts fizzbuzz(num)}
